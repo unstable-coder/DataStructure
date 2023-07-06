@@ -6,9 +6,8 @@ class sorting {
         quicksort(arr, 0, arr.length-1);
         int n = arr.length;
         
-             System.out.println("Minimum ele:"+ arr[0]);
-            System.out.println("Maximum ele:"+ arr[n-1]);
-           
+   System.out.println("Minimum ele:"+ arr[0]);
+   System.out.println("Maximum ele:"+ arr[n-1]);         
         
     }
     public static void quicksort(int[] arr, int low, int high){
